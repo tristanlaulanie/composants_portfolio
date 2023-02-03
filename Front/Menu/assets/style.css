@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+nav {
+  position: fixed;
+  width: 80%;
+}
+
+.nav_list {
+  color: black;
+  background-color: rgba(137, 43, 226, 0.95);
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1.5em;
+  font-family: "Anton", sans-serif;
+  text-align: justify;
+  letter-spacing: 1px;
+  border-radius: 0px 0px 15px 15px;
+  background: linear-gradient(180deg, rgba(137, 43, 226, 0.95), rgba(255, 255, 255, 0.491));
+}
+
+.nav_list li {
+  font-size: 1.8em;
+}

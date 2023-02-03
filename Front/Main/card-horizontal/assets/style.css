@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: black;
+}
+
+.card_container img {
+    height: auto;
+    width: 20em;
+    border-radius: 10px;
+  }
+
+.cards_news_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.card_container {
+    border: solid 5px rgba(255, 255, 255, 0.987);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    shape-outside: polygon(100% 0, 10% 100%, 0 100%);
+    gap: 100px;
+    padding: 1.5em;
+    box-shadow: 10px 8px 8px rgba(238, 130, 238, 0.497);
+  }
+
+  .card_container h1 {
+    font-size: xx-large;
+  }
+
+  .card_container p {
+    font-size: large;
+    font-weight: 300;
+  }
+
+  .text_button_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+  }
+
+  .text_button_card button {
+    width: 30%;
+    padding: 10px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+
+  .text_button_card button:hover {
+    cursor: pointer;
+    font-size: 25px;
+  }
