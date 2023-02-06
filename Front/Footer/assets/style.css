@@ -7,6 +7,11 @@
 footer {
     font-family: 'Anton', sans-serif;
     font-family: 'Kaushan Script', cursive;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer_container {
@@ -15,7 +20,6 @@ footer {
     align-items: center;
     justify-content:flex-start;
     gap: 5em;
-    margin-top: 50%;
     background-color: black;
 
 }

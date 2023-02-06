@@ -14,7 +14,6 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10em;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,14 +56,22 @@ main {
     text-align: end;
 }
 
-.card_social img {
-    margin-top: 2em;
-    height: 250px;
-    width: 250px;
-}
 
 .card_social_cover img {
     height: 250px;
     width: 250px;
     object-fit: cover;
+}
+
+.tiktok_logo {
+    margin-top: 3em;
+    width: 11em;
+    object-fit: cover;
+}
+
+.instagram_logo {
+    margin-top: 3em;
+    width: 15em;
+    object-fit: cover;
+    border-radius: 1em;
 }
