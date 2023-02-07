@@ -1,0 +1,319 @@
+@media screen and (width <= 502px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  /* MENU */
+  nav {
+    width: 100%;
+  }
+  /* END MENU */
+
+  .nav_list li {
+    font-size: 1em;
+  }
+
+  /* HEADER */
+
+  header {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+  }
+
+  .header_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header_title h1 {
+    font-size: 2em;
+    top: 10px;
+  }
+
+  .header_title button {
+    font-size: 1.1em;
+    left: 2px;
+    top: 15px;
+  }
+
+  /* END HEADER */
+
+  /* MAIN */
+
+  /* CARDS HORIZONTALES */
+
+  .card_container img {
+    height: auto;
+    width: 14em;
+  }
+
+  .card_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    /* flex-wrap: wrap; */
+  }
+
+  .card_container p {
+    text-align: center;
+  }
+
+  img.logo_firefruit {
+    width: 15.5em;
+  }
+
+  /* CARDS VERTICALES */
+
+  .cards_verticales h1 {
+    text-align: center;
+  }
+
+  .card_social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+  }
+
+  .card_social p {
+    text-align: center;
+  }
+
+  img.logo_soundcloud {
+    height: 9em;
+    width: 9em;
+  }
+
+  img.logo_bandcamp {
+    height: 9.5em;
+    width: 9.5em;
+  }
+
+  img.tiktok_logo {
+    height: 7em;
+    width: 4.5em;
+    object-fit: contain;
+  }
+
+  img.instagram_logo {
+    height: 6.5em;
+    width: 6.5em;
+  }
+
+  img.youtube_logo {
+    height: 6.9em;
+    width: 6.9em;
+  }
+
+  /* END MAIN */
+}
+
+@media screen and (width <= 532px) {
+
+  /* MENU */
+
+  .nav_list li {
+    font-size: 1.1em;
+  }
+
+  /* END MENU */
+
+  /* HEADER */
+
+  .header_title h1 {
+    font-size: 2.2em;
+  }
+
+  .header_title button {
+    font-size: 1.1em;
+  }
+
+  /* END HEADER */
+
+  .card_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards_verticales h1 {
+    text-align: center;
+  }
+
+  .card_social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card_social p {
+    text-align: center;
+  }
+
+  img.logo_soundcloud {
+    height: 9em;
+    width: 9em;
+  }
+
+  img.logo_bandcamp {
+    height: 9.5em;
+    width: 9.5em;
+  }
+
+  img.tiktok_logo {
+    height: 5.8em;
+    width: 5.8em;
+    padding: 5px;
+  }
+
+  img.instagram_logo {
+    height: 7em;
+    width: 7em;
+  }
+
+  img.youtube_logo {
+    height: 7em;
+    width:9em;
+  }
+}
+
+
+  
+/* 
+  .tiktok_logo {
+    height: 85px;
+    width: 85px;
+    object-fit: cover;
+  }
+
+  .instagram_logo {
+    height: 110px;
+    width: 110px;
+  }
+
+  img.youtube_logo {
+    height: 120px;
+    width: 120px;
+  }
+
+} */
+
+/* @media screen and (width <= 662px) {
+  img.logo_soundcloud,
+  img.logo_bandcamp
+  {
+    height: 160px;
+    width: 160px;
+  }
+
+  .tiktok_logo {
+    height: 120px;
+    width: 120px;
+  }
+
+  .instagram_logo {
+    height: 80px;
+    width: 80px;
+  }
+} */
+
+/* @media screen and (width <= 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    body {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+   
+    nav {
+        width: 100%;
+    }
+
+    .nav_list {
+        gap: 0.3px;
+    }
+
+    .nav_list li {
+        font-size: 1.05em;
+      }
+
+      
+
+      header {
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+      }
+
+      .header_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+      }
+
+      .header_title h1 {
+        font-size: 1.8em;
+        top: 10px;
+      }
+
+      .header_title button {
+        font-size: 1em;
+        left: 2px;
+        top: 15px;
+      }
+} */
+
+/* @media screen and (width <= 960px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+  .card_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+} */
+
+/* @media screen and (width <= 1530px) {
+  img.logo_soundcloud,
+  img.logo_bandcamp {
+    height: 180px;
+    width: 180px;
+  }
+
+  img.youtube_logo {
+    height: 180px;
+    width: 180px;
+  }
+} */
+
+/* @media screen and (width <= 1170px) {
+  .card_container img {
+    width: 10em;
+  }
+  
+} */
