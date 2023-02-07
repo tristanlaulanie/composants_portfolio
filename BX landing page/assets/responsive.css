@@ -139,6 +139,8 @@
 
   /* END HEADER */
 
+  /* NEWS CARDS */
+
   .card_container {
     display: flex;
     flex-direction: column;
@@ -157,6 +159,8 @@
   .card_social p {
     text-align: center;
   }
+
+  /* SOCIAL CARDS */
 
   img.logo_soundcloud {
     height: 9em;
@@ -183,7 +187,13 @@
     height: 7em;
     width:9em;
   }
+
+  .cards_verticales {
+    padding-bottom: 8em;
+  }
 }
+
+/* END SOCIAL CARDS */
 
 
   
