@@ -435,6 +435,36 @@
   /* END CARDS SOCIAL */
 }
 
+@media screen and (width <= 1114px) {
+  .footer_container  {
+    gap: 2em;
+  }
+
+  .icon_text_container p {
+    text-align: start;
+    font-size: 1em;
+  }
+}
+
+@media screen and (width < 790px) {
+  .footer_container {
+    gap: 0em;
+  }
+}
+
+@media screen and (width <= 720px) {
+  .icon_text_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon_text_container p {
+   font-size: 0.8em;
+  }
+}
+
 @media screen and (width > 790px) and (width <= 1160px)
 {
   /* NAV */

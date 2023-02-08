@@ -274,6 +274,66 @@ img.youtube_logo {
   border-radius: 1em;
 }
 
+/* FOOTER */
+
+footer {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Kaushan Script', cursive;
+  /* position: fixed; */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  background-color: black;
+
+}
+
+.footer_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:flex-start;
+  gap: 4em;
+  background-color: black;
+
+}
+
+.icon_text_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.icon_text_container p {
+  font-size: 1.2em;
+}
+
+img {
+  /* object-fit: cover; */
+  width: 150px;
+}
+
+i img {
+  border: 2px solid rgb(255, 192, 203);
+  border-radius: 4px;
+  padding: 5px;
+  width: 55px;
+  box-shadow: 0px 0px 40px pink;
+  transition: 0.8s;
+}
+
+i img:hover {
+  margin-bottom: 1.5em;
+}
+
+div p {
+  color:white;
+}
+
+/* END FOOTER */
+
 
 
   
