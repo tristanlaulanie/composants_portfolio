@@ -1,0 +1,594 @@
+@media screen and (width >= 373px) and (width < 500px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .responsive_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  /* NAV */
+
+  nav {
+    width: 100vw;
+    position: fixed;
+    /* z-index: 1; */
+  }
+
+  .nav_list {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 0.5em;
+   
+  }
+
+  .nav_list li {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+  }
+
+  /* HEADER */
+
+  header video {
+  width: 100vw;
+  margin-bottom: 3.9em;
+  }
+
+  .header_title {
+    width: 100vw;
+    font-size: 7px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .header_video h1 {
+    border: solid 2px white;
+
+  }
+
+  .header_title cite {
+    margin-top: 168px;
+    font-size: 15px;
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  /* MAIN */
+
+  main {
+    width: 100vw;
+  }
+
+  /* CARDS NEWS */
+  .card_container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (width >= 500px) and (width < 532px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  /* MENU */
+  nav {
+    width: 100%;
+  }
+
+  .nav_list li {
+    font-size: 1em;
+  }
+
+  /* END MENU */
+
+  /* HEADER */
+
+  header {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+  }
+
+  .header_video {
+    width: 500px;
+  }
+
+
+  .header_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header_title h1 {
+    font-size: 2em;
+    top: 10px;
+  }
+
+  .header_title button {
+    font-size: 1.1em;
+    left: 2px;
+    top: 15px;
+  }
+
+  /* END HEADER */
+
+  /* MAIN */
+
+  /* CARDS HORIZONTALES */
+
+  .card_container img {
+    height: auto;
+    width: 14em;
+  }
+
+  .card_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .card_container p {
+    text-align: center;
+  }
+
+  img.logo_firefruit {
+    width: 15.5em;
+  }
+
+  /* CARDS VERTICALES */
+
+  .cards_verticales h1 {
+    text-align: center;
+  }
+
+  .card_social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card_social p {
+    text-align: center;
+  }
+
+  img.logo_soundcloud {
+    height: 9em;
+    width: 9em;
+  }
+
+  img.logo_bandcamp {
+    height: 9.5em;
+    width: 9.5em;
+  }
+
+  img.youtube_logo {
+    height: 6.9em;
+    width: 6.9em;
+  }
+
+  img.tiktok_logo {
+    width: 8.2em;
+  }
+
+  /* END MAIN */
+}
+
+@media screen and (width > 532px) and (width <= 662px) {
+   /* BODY */
+
+   body {
+    overflow-x: hidden;
+   }
+  
+  /* MENU */
+
+  .nav_list li {
+    font-size: 1.2em;
+  }
+
+  /* END MENU */
+
+  /* HEADER */
+
+  .header_video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header_title h1 {
+    font-size: 2.5em;
+  }
+
+  .header_title button {
+    margin-top: 1em;
+    font-size: 1.2em;
+    padding: 12px;
+  }
+
+  /* END HEADER */
+
+  /* CARDS NEWS */
+
+  .cards_social_container {
+    margin-bottom: 5em;
+  }
+
+  .card_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+
+  .text_button_card p {
+    text-align: center;
+  }
+
+  /* END CARDS NEWS */
+
+  /* SOCIAL CARDS */
+
+  .cards_verticales h1 {
+    text-align: center;
+  }
+
+  .card_social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+  }
+
+  .card_social p {
+    text-align: center;
+  }
+
+  img.logo_soundcloud {
+    height: 9em;
+    width: 9em;
+  }
+
+  img.logo_bandcamp {
+    height: 9em;
+    width: 9em;
+  }
+
+  img.tiktok_logo {
+    height: 7em;
+    width: 7em;
+  }
+
+  img.instagram_logo {
+    height: 6.8em;
+    width: 6.8em;
+  }
+
+  img.youtube_logo {
+    height: 8em;
+    width: 8em;
+  }
+
+  /* END SOCIAL CARDS */
+}
+
+@media screen and (width > 662px) and (width <= 729px) {
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* NAV */
+
+  .nav_list li {
+    font-size: 1.6em;
+  }
+
+  /* END NAV */
+
+  /* HEADER */
+
+  .header_title h1 {
+    font-size: 3.2em;
+  }
+
+  .header_title button {
+    margin-top: 8px;
+    font-size: 1.6em;
+  }
+
+  /* END HEADER */
+
+  /* CARDS NEWS */
+
+  .card_container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .text_button_card p {
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+  /* END CARDS NEWS */
+
+  /* CARDS SOCIAL */
+
+  .cards_social_container {
+    margin-bottom: 8em;
+  }
+
+  .card_social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card_social p {
+    text-align: center;
+  }
+
+  img.logo_soundcloud {
+    height: 10em;
+    width: 10em;
+  }
+
+  img.logo_bandcamp {
+    height: 12em;
+    width: 12em;
+  }
+
+  img.instagram_logo {
+    height: 8em;
+    width: 8em;
+  }
+
+  img.youtube_logo {
+    margin-top: 10px;
+    height: 8em;
+    width: 8em;
+  }
+}
+
+@media screen and (width >= 730px) and (width <= 790px) {
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* NAV */
+
+  .nav_list li {
+    font-size: 1.8em;
+  }
+
+  /* END NAV */
+
+  /* HEADER */
+
+  .header_title h1 {
+    font-size: 3.4em;
+  }
+
+  .header_title button {
+    margin-bottom: 0.8em;
+  }
+
+  /* CARDS NEWS */
+
+  .cards_social_container {
+    margin-bottom: 5em;
+  }
+
+  .card_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+  }
+
+  .card_container h1 {
+    font-size: 2.2em;
+  }
+
+  .card_container p {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .card_container button {
+    font-size: 2em;
+  }
+
+  /* END CARDS NEWS */
+
+  /* CARDS SOCIAL */
+  .card_social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card_social p {
+    text-align: center;
+    font-size: 1.25em;
+  }
+
+  img.logo_soundcloud {
+    height: 10em;
+    width: 10em;
+  }
+
+  img.logo_bandcamp {
+    height: 10em;
+    width: 10em;
+  }
+
+  img.instagram_logo {
+    height: 8em;
+    width: 8em;
+  }
+
+  img.youtube_logo {
+    height: 8.5em;
+    width: 8.5em;
+  }
+
+  /* END CARDS SOCIAL */
+}
+
+@media screen and (width <= 1114px) {
+  .footer_container  {
+    gap: 2em;
+  }
+
+  .icon_text_container p {
+    text-align: start;
+    font-size: 1em;
+  }
+}
+
+@media screen and (width < 790px) {
+  .footer_container {
+    gap: 0em;
+  }
+}
+
+@media screen and (width <= 720px) {
+  .icon_text_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon_text_container p {
+   font-size: 0.8em;
+  }
+}
+
+@media screen and (width > 790px) and (width <= 1160px)
+{
+
+  /* BODY */
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* NAV */
+
+  .nav_list li {
+    font-size: 1.7em;
+  }
+
+  /* END NAV */
+
+  /* HEADER */
+
+  .header_title h1 {
+    font-size: 3.5em;
+  }
+
+  /* CARDS NEWS */
+
+  .card_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+  }
+
+  .card_container h1 {
+    font-size: 2.4em;
+  }
+
+  .card_container p {
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+  .card_container button {
+    font-size: 2em;
+  }
+
+  /* END CARDS NEWS */
+
+  /* CARDS SOCIAL */
+  .card_social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card_social p {
+    text-align: center;
+  }
+
+  img.logo_soundcloud {
+    margin-top: 35px;
+    height: 10em;
+    width: 10em;
+  }
+
+  img.logo_bandcamp {
+    margin-top: 25px;
+    height: 11em;
+    width: 11em; 
+  }
+
+  img.instagram_logo {
+    height: 8em;
+    width: 8em;
+  }
+
+  .cards_social_container {
+    margin-bottom: 8em;
+  }
+
+}
+
+@media screen and (width > 1160px)
+{
+
+  body {
+    overflow-x: hidden;
+  }
+
+  img.logo_soundcloud,
+  img.logo_bandcamp {
+    height: 12em;
+    width: 12em;
+  }
+
+  .cards_social_container {
+    margin-bottom: 8em;
+  }
+
+    .text_button_card p {
+    font-size: 1.3em;
+  }
+
+  .text_button_card button {
+    font-size: 2em;
+  }
+}
+
